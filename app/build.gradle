@@ -39,4 +39,10 @@ dependencies {
     compile "com.github.Raizlabs.DBFlow:dbflow-sqlcipher:${dbflow_version}"
     compile files('libs/com.baidu.tts_2.3.1.20170808_e39ea89.jar')
 
+// * 类功能描述：</br>
+// * DbFlow用例测试项目
+ //* 博客地址：http://blog.csdn.net/androidstarjack
+// * 公众号：终端研发部
+//关注我学习更多
+
 }

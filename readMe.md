@@ -2,7 +2,6 @@ DBFlow—目前最好用的安卓数据库，DBFlow使用详解
 
 
 先上一张效果图
-
 ![](http://upload-images.jianshu.io/upload_images/4614633-3b4f145f12797570.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
