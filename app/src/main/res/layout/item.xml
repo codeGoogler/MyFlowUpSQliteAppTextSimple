@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:background="@mipmap/ic_launcher"
+    android:id="@+id/iv"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:layout_height="100dp">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:gravity="center|left"
+              android:layout_weight="1"
+
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/tv_name"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:layout_marginTop="10dp"
+                  android:gravity="center_vertical"
+                  android:text="洗面奶"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:text="剩余数量     "/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:id="@+id/tv_num"
+                  android:text="12"/>
+
+          </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:id="@+id/tv_dec"
+            android:text="洗面奶油条，误会发的风格的来那个"/>
+    </LinearLayout>
+</LinearLayout>
