@@ -86,13 +86,7 @@ public class MainActivity extends AppCompatActivity {
                 mydapter.updateAdapterData(list);
                 break;
             case R.id.btn_update2://查询
-               // SQLite.update(Good.class).set(Good_Table.gName.eq("卡卡罗特")).where(Good_Table.num.eq(1)).execute();
-                list = new Select().from(Good.class).queryList();
-                if(list != null && list.size() > 0){
-                    SQLite.update(Good.class).set(Good_Table.gName.eq("卡卡罗特")).where(Good_Table.num.eq(list.get(0).getNum())).execute();
-                }
-                list = new Select().from(Good.class).queryList();
-                mydapter.updateAdapterData(list);
+               //数据库升级
                 break;
         }
     }
